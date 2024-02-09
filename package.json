@@ -1,15 +1,22 @@
 {
-  "name": "goit-advancedjs-hw-05",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "goit-advancedjs-hw-05 ",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "start": "web-dev-server --node-resolve --open --watch"
+    "start": "web-dev-server --node-resolve --open --watch",
+    "dev": "vite",
+    "build": "vite build --base=/goit-advancedjs-hw-05 /",
+    "preview": "vite preview"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
-    "@web/dev-server": "^0.4.2"
+    "vite": "^4.5.2",
+    "glob": "^8.1.0"
+  },
+  "author": "Maksym Noritsyn <maximnoritsyn@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "vite-plugin-full-reload": "^1.0.5",
+    "vite-plugin-html-inject": "^1.0.1"
   }
 }
